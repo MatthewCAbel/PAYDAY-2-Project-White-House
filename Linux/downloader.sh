@@ -14,7 +14,7 @@ mkdir $FILE/"PAYDAY 2 Project White House"
 
 SteamUsername=`zenity --forms  --add-entry="Username:" --text="Please enter your steam username"`
 
-SteamPassword=`zenity --forms  --add-password="Username:" --text="Please enter your steam username. This information will only go to Steam's servers. Please check the Depot Downloader GitHub for more info."`
+SteamPassword=`zenity --forms  --add-password="Username:" --text="Please enter your steam password. This information will only go to Steam's servers. Please check the Depot Downloader GitHub for more info."`
 
 ./DepotDownloader -app 218620 -depot 218621 -manifest 8140332499591716770 -username $SteamUsername -password $SteamPassword -dir $FILE/"PAYDAY 2 Project White House"
 
