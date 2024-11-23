@@ -176,8 +176,7 @@ def clone_and_copy_mods():
 # Function to show the final message
 def show_final_message():
     final_message = (
-        "Done! Please add the Project White House EXE file as a non-Steam game and use the same "
-        "Proton versions and launch options you use in vanilla Payday 2. Thank you for playing Project White House!"
+        "Done! Please add the Project White House EXE file as a non-Steam game and use the same Proton version you use in vanilla Payday 2. Thank you for playing Project White House!"
     )
     messagebox.showinfo("Project White House - Installation Complete", final_message)
 
