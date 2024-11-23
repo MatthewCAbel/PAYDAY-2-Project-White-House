@@ -1,0 +1,12 @@
+<mod name="AK Correct Magpul Assist Mags" color="Color(0.01,0.62,0.98)">
+	<AssetUpdates id="19777" version="1.31" provider="modworkshop"/>
+	<AddFiles directory="assets">
+		<unit_mat_cc path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_m_magpul"/>
+		<unit_mat_cc path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_gold_m_magpul"/>
+		<unit_mat_cc path="units/mods/weapons/wpn_fps_ass_flint_m_magpul/wpn_fps_ass_flint_m_magpul"/>
+	</AddFiles>
+	<Hooks directory="hooks">
+		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+		<hook file="weaponskinstweakdata.lua" source_file="lib/tweak_data/blackmarket/weaponskinstweakdata"/>
+	</Hooks>
+</mod>
