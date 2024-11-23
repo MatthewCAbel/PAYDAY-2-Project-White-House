@@ -1,4 +1,4 @@
-zenity --info --text "This script will automatically download PAYDAY 2 update 197.2 from Steam's servers then download all the mods from the Project White House Repo."
+zenity --info --text "This script will automatically download PAYDAY 2 update 197.2 from Steam's servers and then download all the mods from the Project White House Repo."
 
 wget https://github.com/SteamRE/DepotDownloader/releases/latest/download/DepotDownloader-linux-x64.zip
 unzip DepotDownloader-linux-x64.zip
