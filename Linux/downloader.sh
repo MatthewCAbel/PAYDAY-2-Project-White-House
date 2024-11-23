@@ -30,7 +30,7 @@ cp -ar $FILE/"PAYDAY 2 Project White House"/Project-White-House-Mods/* $FILE/"PA
 
 rm -rf $FILE/"PAYDAY 2 Project White House"/Project-White-House-Mods
 
-zenity --info --text "Done! Thank you for playing Project White House! Please add the EXE file as none steam game and select the same Proton version as your normal PAYDAY 2 install to play."
+zenity --info --text "Done! Thank you for playing Project White House! Please add the EXE file as a non steam game and select the same Proton version as your normal PAYDAY 2 install to play."
 
 
 
