@@ -173,6 +173,15 @@ def clone_and_copy_mods():
     print(f"Deleted folder: {clone_dir}")
 
 
+# Function to show the final message
+def show_final_message():
+    final_message = (
+        "Done! Please add the Project White House EXE file as a non-Steam game and use the same "
+        "Proton versions and launch options you use in vanilla Payday 2. Thank you for playing Project White House!"
+    )
+    messagebox.showinfo("Project White House - Installation Complete", final_message)
+
+
 # Main function to orchestrate the script
 def main():
     # Show welcome message at the start
@@ -204,6 +213,9 @@ def main():
 
     # Step 8: Clone the repo and copy the contents to the PAYDAY 2 folder
     clone_and_copy_mods()
+
+    # Show final message when the script is done
+    show_final_message()
 
 
 if __name__ == "__main__":
