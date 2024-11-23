@@ -189,29 +189,29 @@ def main():
 
     env_dir = "env"
 
-    # Step 1: Create and activate virtual environment
+    # Create and activate virtual environment
     create_virtualenv()
 
-    # Step 2: Download DepotDownloader
+    # Download DepotDownloader
     download_depotdownloader(env_dir)
 
-    # Step 3: Extract the zip file
+    # Extract the zip file
     extract_zip()
 
-    # Step 4: Select download directory
+    # Select download directory
     FILE = select_directory()
 
-    # Step 5: Get Steam credentials
+    # Get Steam credentials
     SteamUsername, SteamPassword = get_steam_credentials()
 
-    # Step 6: Run DepotDownloader for the first time
+    # Run DepotDownloader for the first time
     run_depotdownloader(SteamUsername, SteamPassword, FILE)
 
-    # Step 7: Run DepotDownloader again to ensure files are valid
+    # Run DepotDownloader again to ensure files are valid
     print("\nRe-running DepotDownloader to validate the downloaded files...")
     run_depotdownloader(SteamUsername, SteamPassword, FILE)
 
-    # Step 8: Clone the repo and copy the contents to the PAYDAY 2 folder
+    # Clone the repo and copy the contents to the PAYDAY 2 folder
     clone_and_copy_mods()
 
     # Show final message when the script is done
