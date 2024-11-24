@@ -103,6 +103,9 @@ def run_depotdownloader(SteamUsername, SteamPassword, FILE):
     if not os.path.exists(payday2_dir):
         os.makedirs(payday2_dir)
         print(f"Created directory: {payday2_dir}")
+    
+
+    create_steam_appid_file(payday2_dir)
 
 
     create_steam_appid_file(payday2_dir)
