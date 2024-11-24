@@ -152,8 +152,8 @@ def clone_and_copy_mods(FILE):
 
 def show_final_message():
     final_message = (
-        "Done! Please add the Project White House EXE file as a non-Steam game and add the launch option from the SuperBLT website to load the mods correctly. "
-        "You will also need to use the same proton version as you use in vanilla. Thank you for playing Project White House!"
+        "Done! Please add the Project White House EXE file as a non-Steam game to play."
+        "Thank you for playing Project White House!"
     )
     messagebox.showinfo("Project White House - Installation Complete", final_message)
 
