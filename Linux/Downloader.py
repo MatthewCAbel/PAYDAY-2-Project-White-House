@@ -70,7 +70,7 @@ def extract_zip():
 
 def get_steam_credentials():
     root = tk.Tk()
-    root.withdraw()  # Hide the root window
+    root.withdraw() 
 
   
     SteamUsername = simpledialog.askstring("Steam Username", "Enter your Steam username:")
@@ -93,7 +93,7 @@ def get_steam_credentials():
 
 def select_directory():
     root = tk.Tk()
-    root.withdraw()  # Hide the root window
+    root.withdraw()  
     selected_directory = filedialog.askdirectory(title="Select the directory to save the download")
     if not selected_directory:
         messagebox.showerror("Error", "Directory selection is required.")
@@ -104,7 +104,6 @@ def select_directory():
 def ensure_depotdownloader_executable():
     depotdownloader_path = "./DepotDownloader/DepotDownloader"
 
-    # Ensure the DepotDownloader binary is executable (on Unix-like systems)
     if sys.platform != "win32":
         subprocess.check_call(["chmod", "+x", depotdownloader_path])
         print("DepotDownloader is now executable.")
