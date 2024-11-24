@@ -7,6 +7,8 @@ It will ask for your Steam login credentials. This is needed for Depot Downloade
 
 The mods repository can be found here: https://github.com/MatthewCAbel/Project-White-House-Mods
 
+Windows is weird
+
 # Planned Features
 Installations that supports different huds (Pocohud, wolfhud, etc)
 
