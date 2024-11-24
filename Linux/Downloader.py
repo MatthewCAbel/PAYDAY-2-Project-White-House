@@ -184,7 +184,7 @@ def show_final_message():
 
 
 def main():
-    # Show welcome message at the start
+
     show_welcome_message()
 
     env_dir = "env"
