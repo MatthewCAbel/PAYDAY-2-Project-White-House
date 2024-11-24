@@ -7,6 +7,7 @@ from tkinter import simpledialog, filedialog, messagebox
 import sys
 import venv
 
+
 def show_welcome_message():
     welcome_message = (
         "Welcome to Project White House!\n\n"
@@ -14,7 +15,7 @@ def show_welcome_message():
         "into your game folder.\n\n"
         "You will need to enter your Steam credentials in order to download the game files from Depot Downloader. "
         "This information will ONLY be sent to Steam's servers. Please see the Depot Downloader GitHub page for more information.\n\n"
-        "You will need to respond to two Steam Guard prompts during the install process.\n\n"
+        "You will need to respond to two Steam Guard prompts during the install process."
     )
     messagebox.showinfo("Welcome to Project White House!", welcome_message)
 
@@ -32,7 +33,7 @@ def create_virtualenv():
 def install_dependencies(env_dir):
     pip_path = os.path.join(env_dir, "Scripts", "pip.exe")
     print("Installing dependencies...")
-    subprocess.check_call([pip_path, "install", "wget", "gitpython"])
+    subprocess.check_call([pip_path, "install", "wget", "gitpython", "git"])
 
 
 def download_depotdownloader(env_dir):
@@ -41,9 +42,9 @@ def download_depotdownloader(env_dir):
 
     python_path = os.path.join(env_dir, "Scripts", "python.exe")
     download_script = f"""
-import wget
 import git
-GIT_PYTHON_GIT_EXECUTABLE='C:/Program Files/Git/bin/git.exe' 
+import wget
+import gitpython
 wget.download("{url}", "DepotDownloader-windows-x64.zip")
 """
     subprocess.check_call([python_path, "-c", download_script])
@@ -103,9 +104,6 @@ def run_depotdownloader(SteamUsername, SteamPassword, FILE):
     if not os.path.exists(payday2_dir):
         os.makedirs(payday2_dir)
         print(f"Created directory: {payday2_dir}")
-    
-
-    create_steam_appid_file(payday2_dir)
 
 
     create_steam_appid_file(payday2_dir)
