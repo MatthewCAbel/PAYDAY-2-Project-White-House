@@ -142,16 +142,18 @@ def run_depotdownloader(SteamUsername, SteamPassword, FILE):
 
 
 # Function to clone the GitHub repository and copy its contents
-def clone_and_copy_mods():
+def clone_and_copy_mods(FILE):
     repo_url = "https://github.com/MatthewCAbel/Project-White-House-Mods"
     clone_dir = "Project-White-House-Mods"
-    payday2_dir = os.path.join(os.getcwd(), "PAYDAY 2 Project White House")
 
-    # Clone the repository using git
+    # Clone the repository into the current working directory
     print(f"Cloning repository: {repo_url}")
     subprocess.check_call(["git", "clone", repo_url, clone_dir])
 
-    # Copy contents of the cloned repo to the PAYDAY 2 Project White House folder
+    # Define the destination folder for the mod files
+    payday2_dir = os.path.join(FILE, "PAYDAY 2 Project White House")
+
+    # Ensure the destination directory exists
     if not os.path.exists(payday2_dir):
         os.makedirs(payday2_dir)
         print(f"Created directory: {payday2_dir}")
@@ -211,7 +213,7 @@ def main():
     run_depotdownloader(SteamUsername, SteamPassword, FILE)
 
     # Clone the repo and copy the contents to the PAYDAY 2 folder
-    clone_and_copy_mods()
+    clone_and_copy_mods(FILE)
 
     # Show final message when the script is done
     show_final_message()
