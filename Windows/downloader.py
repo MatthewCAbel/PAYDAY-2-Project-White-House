@@ -1,12 +1,11 @@
 import os
 import subprocess
 import zipfile
-import shutil  
+import shutil
 import tkinter as tk
 from tkinter import simpledialog, filedialog, messagebox
 import sys
 import venv
-
 
 def show_welcome_message():
     welcome_message = (
@@ -15,7 +14,7 @@ def show_welcome_message():
         "into your game folder.\n\n"
         "You will need to enter your Steam credentials in order to download the game files from Depot Downloader. "
         "This information will ONLY be sent to Steam's servers. Please see the Depot Downloader GitHub page for more information.\n\n"
-        "You will need to respond to two Steam Guard prompts during the install process."
+        "You will need to respond to two Steam Guard prompts during the install process.\n\n"
     )
     messagebox.showinfo("Welcome to Project White House!", welcome_message)
 
@@ -30,20 +29,21 @@ def create_virtualenv():
     install_dependencies(env_dir)
 
 
-
 def install_dependencies(env_dir):
-    pip_path = os.path.join(env_dir, "Scripts", "pip.exe") 
+    pip_path = os.path.join(env_dir, "Scripts", "pip.exe")
     print("Installing dependencies...")
-    subprocess.check_call([pip_path, "install", "wget"])
+    subprocess.check_call([pip_path, "install", "wget", "gitpython"])
 
 
 def download_depotdownloader(env_dir):
     url = "https://github.com/SteamRE/DepotDownloader/releases/latest/download/DepotDownloader-windows-x64.zip"
     print("Downloading DepotDownloader...")
 
-    python_path = os.path.join(env_dir, "Scripts", "python.exe") 
+    python_path = os.path.join(env_dir, "Scripts", "python.exe")
     download_script = f"""
 import wget
+import git
+GIT_PYTHON_GIT_EXECUTABLE='C:/Program Files/Git/bin/git.exe' 
 wget.download("{url}", "DepotDownloader-windows-x64.zip")
 """
     subprocess.check_call([python_path, "-c", download_script])
@@ -85,7 +85,7 @@ def get_steam_credentials():
 
 def select_directory():
     root = tk.Tk()
-    root.withdraw() 
+    root.withdraw()
     selected_directory = filedialog.askdirectory(title="Select the directory to save the download")
     if not selected_directory:
         messagebox.showerror("Error", "Directory selection is required.")
@@ -94,7 +94,7 @@ def select_directory():
 
 
 def ensure_depotdownloader_executable():
-    depotdownloader_path = "./DepotDownloader/DepotDownloader.exe" 
+    depotdownloader_path = "./DepotDownloader/DepotDownloader.exe"
     return depotdownloader_path
 
 
@@ -103,6 +103,9 @@ def run_depotdownloader(SteamUsername, SteamPassword, FILE):
     if not os.path.exists(payday2_dir):
         os.makedirs(payday2_dir)
         print(f"Created directory: {payday2_dir}")
+
+
+    create_steam_appid_file(payday2_dir)
 
     depotdownloader_path = ensure_depotdownloader_executable()
 
@@ -122,12 +125,27 @@ def run_depotdownloader(SteamUsername, SteamPassword, FILE):
     subprocess.run(command)
 
 
+def create_steam_appid_file(directory):
+    """Create steam_appid.txt with '218620'"""
+    appid_file_path = os.path.join(directory, "steam_appid.txt")
+    with open(appid_file_path, "w") as appid_file:
+        appid_file.write("218620")
+    print("Created steam_appid.txt with '218620'.")
+
+
 def clone_and_copy_mods(FILE):
     repo_url = "https://github.com/MatthewCAbel/Project-White-House-Mods"
     clone_dir = "Project-White-House-Mods"
 
     print(f"Cloning repository: {repo_url}")
-    subprocess.check_call(["git", "clone", repo_url, clone_dir])
+
+    try:
+        repo = git.Repo.clone_from(repo_url, clone_dir)
+        print(f"Successfully cloned {repo_url} to {clone_dir}")
+    except git.exc.GitCommandError as e:
+        print(f"Error cloning repository: {e}")
+        messagebox.showerror("Git Error", f"Failed to clone repository: {e}")
+        exit()
 
     payday2_dir = os.path.join(FILE, "PAYDAY 2 Project White House")
 
@@ -156,6 +174,7 @@ def show_final_message():
         "Thank you for playing Project White House!"
     )
     messagebox.showinfo("Project White House - Installation Complete", final_message)
+
 
 def main():
 
