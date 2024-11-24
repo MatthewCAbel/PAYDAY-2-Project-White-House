@@ -8,6 +8,10 @@ It will ask for your Steam login credentials. This is needed for Depot Downloade
 The mods repository can be found here: https://github.com/MatthewCAbel/Project-White-House-Mods
 
 Comes with balance changes added from later updates minus the nerfs or frowned opon balance changes
+
+# Planned Features
+Installations that supports different huds (Pocohud, wolfhud, etc)
+
 # Installation
 Download the script for your operating system from the releases page. Then run it through CMD (py downloader.py) for Windows or your terminal (python Downloader.py) for Linux.
 
