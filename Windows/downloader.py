@@ -30,7 +30,6 @@ def create_virtualenv():
     install_dependencies(env_dir)
 
 
-
 def install_dependencies(env_dir):
     pip_path = os.path.join(env_dir, "Scripts", "pip.exe") 
     print("Installing dependencies...")
@@ -103,6 +102,9 @@ def run_depotdownloader(SteamUsername, SteamPassword, FILE):
     if not os.path.exists(payday2_dir):
         os.makedirs(payday2_dir)
         print(f"Created directory: {payday2_dir}")
+    
+
+    create_steam_appid_file(payday2_dir)
 
     depotdownloader_path = ensure_depotdownloader_executable()
 
@@ -120,6 +122,14 @@ def run_depotdownloader(SteamUsername, SteamPassword, FILE):
     print(f"Running command: {command}")
 
     subprocess.run(command)
+
+
+def create_steam_appid_file(directory):
+    """Create steam_appid.txt with '218620'"""
+    appid_file_path = os.path.join(directory, "steam_appid.txt")
+    with open(appid_file_path, "w") as appid_file:
+        appid_file.write("218620")
+    print("Created steam_appid.txt with '218620'.")
 
 
 def clone_and_copy_mods(FILE):
