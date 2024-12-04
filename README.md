@@ -16,7 +16,7 @@ Backporting new weapons as custom ones
 # Installation
 Make sure you have Python3 (https://www.python.org/downloads/) and git (https://git-scm.com/downloads/win) installed on Windows. Please make sure you select the options to add them to your path when you install them. For Linux users, just install these through whatever means you use on your distro.
 
-Download the script for your operating system from the releases page. Then run it through CMD (py downloader.py) for Windows or your terminal (python Downloader.py) for Linux.
+Download the script for your operating system from the releases page. Then run it through CMD (py downloader.py) for Windows (make sure you are in the same directory as the script) or your terminal (python Downloader.py) for Linux.
 
 # Credits
 MatthewCAbel - General Project Manager, Install Script Coding, Balancing
