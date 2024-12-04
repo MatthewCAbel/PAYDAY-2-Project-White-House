@@ -10,16 +10,16 @@ The mods repository can be found here: https://github.com/MatthewCAbel/Project-W
 Windows is weird
 
 # Planned Features
-Installations that supports different huds (Pocohud, wolfhud, etc)
+Options for different HUDs during Installation
+Backporting new weapons as custom ones
 
 # Installation
 Download the script for your operating system from the releases page. Then run it through CMD (py downloader.py) for Windows or your terminal (python Downloader.py) for Linux.
 
-
 # Credits
-MatthewCabel - Installation coding, idea, and general project manager
+MatthewCAbel - General Project Manager, Install Script Coding, Balancing
 
-Lettuce - Help with a few things
+icecowsun/Lettuce - Assistance with GitHub Page and Install Script
 
 SteamRE - Depot Downloader - https://github.com/SteamRE/DepotDownloader
 
