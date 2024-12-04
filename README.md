@@ -128,7 +128,7 @@ Vanilla More Heist Crime Spree Extended - SenpaiKillerFire - https://modworkshop
 WolfHUD - Kamikaze94 - https://github.com/Kamikaze94/WolfHUD
 
 # Mod Override Credits
-Better Flashlight Texture - mut5r https://modworkshop.net/mod/31473
+Better Flashlight Texture - mut5r - https://modworkshop.net/mod/31473
 
 Chunky armor hitsounds mod - Fennikk - https://modworkshop.net/mod/25327
 
