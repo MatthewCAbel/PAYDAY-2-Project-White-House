@@ -26,7 +26,7 @@ Once you login successfully, it will download the game. Once it downloads a firs
 
 After this, it will download the mods from our GitHub repo and extract them to your game folder.
 
-Once the install script is done, please add Project White House to steam as a non steam game and change the name. Once you've done this, you're ready to play.
+Once the install script is done, please add Project White House to steam as a non steam game and change the name. Linux users will need to select the same Proton version and use the same launch options they use in current Payday. Once you've done this, you're ready to play. 
 
 # Credits
 MatthewCAbel - General Project Manager, Install Script Coding, Balancing
