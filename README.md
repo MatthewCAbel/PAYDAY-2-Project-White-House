@@ -18,6 +18,14 @@ Make sure you have Python3 (https://www.python.org/downloads/) and git (https://
 
 Download the script for your operating system from the releases page. Then run it through CMD (py downloader.py) for Windows (make sure you are in the same directory as the script) or your terminal (python Downloader.py) for Linux.
 
+The script will ask you where to install the game, it will create a folder in the chosen location. It will then ask for your steam username and password. This info will ONLY go to Steam's servers, you can read it yourself if you're unsure about it. 
+
+Once you login successfully, it will download the game. Once it downloads a first time, it will run depot downloader again to ensure there are no errors.
+
+After this, it will download the mods from our GitHub repo and extract them to your game folder.
+
+Once the install script is done, please add Project White House to steam as a non steam game and change the name.
+
 # Credits
 MatthewCAbel - General Project Manager, Install Script Coding, Balancing
 
