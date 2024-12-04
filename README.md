@@ -41,13 +41,15 @@ Buzzsaw 42 Belt Fix - Hinaomi - https://modworkshop.net/mod/31499
 
 Celer - TdlQ - https://pd2mods.z77.fr/celer.html
 
+Check for Wallbangs - vojin154 - https://modworkshop.net/mod/47414
+
 Clear Texture Cache - TDLQ - https://pd2mods.z77.fr/clear_texture_cache.html
 
 Clientsided Uppers - Powware - https://modworkshop.net/mod/29645
 
-Custom Preferred Masks - easternunit100 - https://modworkshop.net/mod/24888
-
 Custom FOV - Appii - https://modworkshop.net/mod/33680
+
+Custom Preferred Masks - easternunit100 - https://modworkshop.net/mod/24888
 
 Drag and Drop Inventory = TdlQ - https://pd2mods.z77.fr/drag_and_drop_inventory.html
 
@@ -64,8 +66,6 @@ Heist Specific Music in Crime Spree - Ludor Experiens - https://modworkshop.net/
 High Crime Spree Pack - sunny_bunny - https://modworkshop.net/mod/35789
 
 Improved Offline Functionality - fragtrane - https://modworkshop.net/mod/25511
-
-Snh20's Inverted Flashbang Glare - test1 - https://modworkshop.net/mod/27337
 
 KSP 58 Belt Fix - Hinaomi, Krimzin - https://modworkshop.net/mod/27074
 
@@ -101,6 +101,10 @@ Save My EXP! - Hoppip - https://modworkshop.net/mod/32685
 
 Sensitivity Fixer - James L33 - https://modworkshop.net/mod/12823
 
+Simple Seperate Save - naii_ - https://modworkshop.net/mod/37258
+
+Snh20's Inverted Flashbang Glare - test1 - https://modworkshop.net/mod/27337
+
 Steam over FBI - Literally the Crash - https://modworkshop.net/mod/20204
 
 Stop crime spree crash on join - ◥◣Avocado◢◤ - https://modworkshop.net/mod/33165
@@ -110,10 +114,6 @@ The Fixes - Dom, andole - https://modworkshop.net/mod/23732
 Vanilla More Heist Crime Spree Extended - SenpaiKillerFire - https://modworkshop.net/mod/27632
 
 WolfHUD - Kamikaze94 - https://github.com/Kamikaze94/WolfHUD
-
-Check for Wallbangs - vojin154 - https://modworkshop.net/mod/47414
-
-Simple Seperate Save - naii_ - https://modworkshop.net/mod/37258
 
 # Mod Override Credits
 Better Flashlight Texture/units/lights/spot_light_projection_textures - mut5r https://modworkshop.net/mod/31473
