@@ -10,8 +10,6 @@ The mods repository can be found here: https://github.com/MatthewCAbel/Project-W
 # Planned Features
 Options for different HUDs during Installation
 
-Backporting new weapons as custom ones
-
 # Installation
 Make sure you have Python3 (https://www.python.org/downloads/) and git (https://git-scm.com/downloads/win) installed on Windows. Please make sure you select the options to add them to your path when you install them (an option on the first page in the python installed, this should be the default for git). For Linux users, just install these through whatever means you use on your distro.
 
