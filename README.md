@@ -21,23 +21,24 @@ MatthewCabel - Installation coding, idea, and general project manager
 
 Lettuce - Help with a few things
 # Mod Credits
-Alphasort Mods - BLT - https://pdmods-arc.berigora.net/paydaymods.com/mods/663/AM.html
+
+SuperBLT - SuperBLT Team - https://superblt.znix.xyz
+
+Alphasort Mods - TdlQ - BLT - https://pd2mods.z77.fr/alphasort_mods.html
 
 AutoDiscardParachute - octo - https://modworkshop.net/mod/45902
 
-Automatically Equip ICTV Armor - DR_Newbie - https://modworkshop.net/mod/35944
+Automatically Equip ICTV Armor - Dr_Newbie - https://modworkshop.net/mod/35944
 
 Basic Movement Undeploys Bipod - DeadmansChest - https://modworkshop.net/mod/19561
 
 BeardLib - Simon - https://modworkshop.net/mod/14924
 
-Buff Backports - MatthewCabel
-
 Buzzsaw 42 Belt Fix - Hinaomi - https://modworkshop.net/mod/31499
 
-Celer - TDLQ - 
+Celer - TdlQ - https://pd2mods.z77.fr/celer.html
 
-Clear Texture Cache - TDLQ - 
+Clear Texture Cache - TDLQ - https://pd2mods.z77.fr/clear_texture_cache.html
 
 Clientsided Uppers - Powware - https://modworkshop.net/mod/29645
 
@@ -45,7 +46,71 @@ Custom Preferred Masks - easternunit100 - https://modworkshop.net/mod/24888
 
 Custom FOV - Appii - https://modworkshop.net/mod/33680
 
-FILL IN LATER
+Drag and Drop Inventory = TdlQ - https://pd2mods.z77.fr/drag_and_drop_inventory.html
+
+Enable Restart on Crime Spree - Dr_Newbie - https://modworkshop.net/mod/31266
+
+Enhanced Hitmarkers - TdlQ - https://pd2mods.z77.fr/enhanced_hitmarkers.html
+
+Extra Profiles and Skill Sets - fragtrane - https://modworkshop.net/mod/26702
+
+Grace doesn't kill civils - Dr_Newbie - https://modworkshop.net/mod/22987
+
+Heist Specific Music in Crime Spree - Ludor Experiens - https://modworkshop.net/mod/23418
+
+High Crime Spree Pack - sunny_bunny - https://modworkshop.net/mod/35789
+
+Improved Offline Functionality - fragtrane - https://modworkshop.net/mod/25511
+
+Snh20's Inverted Flashbang Glare - test1 - https://modworkshop.net/mod/27337
+
+KSP 58 Belt Fix - Hinaomi, Krimzin - https://modworkshop.net/mod/27074
+
+Less Aliasing - fugsystem - https://modworkshop.net/mod/37442
+
+Less Inaccurate Weapon Laser - TdlQ - https://pd2mods.z77.fr/less_inaccurate_weapon_laser.html
+
+Load Steam Inventory Once - Sora - https://modworkshop.net/mod/24008
+
+Lobby Player Info -TdlQ - https://pd2mods.z77.fr/lobby_player_info.html
+
+Mod List Lite - BangL - https://pdmods-arc.berigora.net/paydaymods.com/mods/551/mll.html
+
+More Dozers (+2) - andole - https://modworkshop.net/mod/23776
+
+More Weapon Stats - https://pd2mods.z77.fr/more_weapon_stats.html
+
+No ADS Recoil Animations - Zdann - https://modworkshop.net/mod/25619
+
+No Flashlight Glow - Offyerrocker - https://modworkshop.net/mod/22410 
+
+No More Menu Filter - Cpone - https://modworkshop.net/mod/23119
+
+No Screen Shake (Only on Shooting) - sydch, Mooshino - https://modworkshop.net/mod/22471
+
+Perfect Viewmodel - Luffy - https://modworkshop.net/mod/17618
+
+Refresh Rate Checker - TdlQ - https://pd2mods.z77.fr/refresh_rate_checker.html
+
+Repeater Sights Tweak Updated - Dorpenka - https://modworkshop.net/mod/40958
+
+Save My EXP! - Hoppip - https://modworkshop.net/mod/32685
+
+Sensitivity Fixer - James L33 - https://modworkshop.net/mod/12823
+
+Steam over FBI - Literally the Crash - https://modworkshop.net/mod/20204
+
+Stop crime spree crash on join - ◥◣Avocado◢◤ - https://modworkshop.net/mod/33165
+
+The Fixes - Dom, andole - https://modworkshop.net/mod/23732
+
+Vanilla More Heist Crime Spree Extended - SenpaiKillerFire - https://modworkshop.net/mod/27632
+
+WolfHUD - Kamikaze94 - https://github.com/Kamikaze94/WolfHUD
+
+Check for Wallbangs - vojin154 - https://modworkshop.net/mod/47414
+
+Simple Seperate Save - naii_ - https://modworkshop.net/mod/37258
 
 # Mod Override Credits
 Better Flashlight Texture/units/lights/spot_light_projection_textures - mut5r https://modworkshop.net/mod/31473
