@@ -22,7 +22,7 @@ Once you login successfully, it will download the game. Once it downloads a firs
 
 After this, it will download the mods from our GitHub repo and extract them to your game folder.
 
-Once the install script is done, please add Project White House to steam as a non steam game and change the name.
+Once the install script is done, please add Project White House to steam as a non steam game and change the name. Once you've done this, you're ready to play.
 
 # Credits
 MatthewCAbel - General Project Manager, Install Script Coding, Balancing
