@@ -28,6 +28,8 @@ After this, it will download the mods from our GitHub repo and extract them to y
 
 Once the install script is done, please add Project White House to steam as a non steam game and change the name. Linux users will need to select the same Proton version and launch options (or just the SuperBLT launch options from the website if they don't use any) as they use in current Payday. Once you've done this, you're ready to play. 
 
+Feel free to delete the script folder when it is finished.
+
 # Credits
 MatthewCAbel - General Project Manager, Install Script Coding, Balancing
 
