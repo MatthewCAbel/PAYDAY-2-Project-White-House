@@ -134,5 +134,5 @@ Reinforcements Armor Regeneration Sound - Fennikk - https://modworkshop.net/mod/
 
 Slightly Exaggerated Weapon Tracers/effects - fugsystem - https://modworkshop.net/mod/25476
 
-Visible power box/units/pd2_dlc_vit/props/vit_prop_cable_box - Kell S. - https://modworkshop.net/mod/27187
+Visible power boxes - Kell S. - https://modworkshop.net/mod/27187
 
