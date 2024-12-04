@@ -15,7 +15,8 @@ Backporting new weapons as custom ones
 # Installation
 Make sure you have Python3 (https://www.python.org/downloads/) and git (https://git-scm.com/downloads/win) installed on Windows. Please make sure you select the options to add them to your path when you install them (an option on the first page in the python installed, this should be the default for git). For Linux users, just install these through whatever means you use on your distro.
 
-![image](https://github.com/user-attachments/assets/5698294c-f2d5-47ba-a07d-25af37da5095) ![image](https://github.com/user-attachments/assets/0f9d4337-ad63-4b80-9375-cb6b77c04c2e)
+![392516163-5698294c-f2d5-47ba-a07d-25af37da5095](https://github.com/user-attachments/assets/a3f59a36-c670-4148-a9f0-2d199c293c81)
+![image](https://github.com/user-attachments/assets/0f9d4337-ad63-4b80-9375-cb6b77c04c2e)
 
 Download the script for your operating system from the releases page. Then run it through CMD (py downloader.py) for Windows (make sure you are in the same directory as the script) or your terminal (python Downloader.py) for Linux. (For the unaware, CMD can be opened in a folder on windows by "cd"ing to the folder address, typing "cmd" in the address bar in file explorer, or by holding shift and clicking the blank space on a folder then clicking "Open Command Prompt Here")
 
