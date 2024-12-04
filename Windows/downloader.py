@@ -97,7 +97,7 @@ def clone_and_copy_repo(project_folder):
     items_to_copy = ["WSOCK32.dll", "mods", "assets"]
     for item_name in items_to_copy:
         item_path = clone_path / item_name
-        if item_path.exists():
+        if item_path.exists(): #?????? bro ???
             dest = Path(project_folder) / item_name
             if item_path.is_dir():
                 shutil.copytree(item_path, dest, dirs_exist_ok=True)
