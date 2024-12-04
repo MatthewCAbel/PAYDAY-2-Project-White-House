@@ -43,7 +43,7 @@ Celer - TdlQ - https://pd2mods.z77.fr/celer.html
 
 Check for Wallbangs - vojin154 - https://modworkshop.net/mod/47414
 
-Clear Texture Cache - TDLQ - https://pd2mods.z77.fr/clear_texture_cache.html
+Clear Texture Cache - TdlQ - https://pd2mods.z77.fr/clear_texture_cache.html
 
 Clientsided Uppers - Powware - https://modworkshop.net/mod/29645
 
