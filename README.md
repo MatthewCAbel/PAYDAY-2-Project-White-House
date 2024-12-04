@@ -35,7 +35,7 @@ Automatically Equip ICTV Armor - Dr_Newbie - https://modworkshop.net/mod/35944
 
 Basic Movement Undeploys Bipod - DeadmansChest - https://modworkshop.net/mod/19561
 
-BeardLib - Simon - https://modworkshop.net/mod/14924
+BeardLib - Simon, Luffy, Hoppip, Cpone - https://modworkshop.net/mod/14924
 
 Buzzsaw 42 Belt Fix - Hinaomi - https://modworkshop.net/mod/31499
 
