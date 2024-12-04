@@ -15,7 +15,7 @@ Backporting new weapons as custom ones
 # Installation
 Make sure you have Python3 (https://www.python.org/downloads/) and git (https://git-scm.com/downloads/win) installed on Windows. Please make sure you select the options to add them to your path when you install them. For Linux users, just install these through whatever means you use on your distro.
 
-Download the script for your operating system from the releases page. Then run it through CMD (py downloader.py) for Windows (make sure you are in the same directory as the script) or your terminal (python Downloader.py) for Linux. (For the unaware, CMD can be opened in a folder on windows by typing "cmd" in the address bar or by holding shift and clicking the blank space on a folder)
+Download the script for your operating system from the releases page. Then run it through CMD (py downloader.py) for Windows (make sure you are in the same directory as the script) or your terminal (python Downloader.py) for Linux. (For the unaware, CMD can be opened in a folder on windows by "cd"ing to the folder, typing "cmd" in the address bar or by holding shift and clicking the blank space on a folder)
 
 The script will ask you where to install the game, it will create a folder in the chosen location. It will then ask for your steam username and password. This info will ONLY go to Steam's servers, you can read it yourself if you're unsure about it. It will also ask for a steam guard authentication.
 
