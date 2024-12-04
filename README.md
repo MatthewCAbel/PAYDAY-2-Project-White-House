@@ -116,15 +116,15 @@ Vanilla More Heist Crime Spree Extended - SenpaiKillerFire - https://modworkshop
 WolfHUD - Kamikaze94 - https://github.com/Kamikaze94/WolfHUD
 
 # Mod Override Credits
-Better Flashlight Texture/units/lights/spot_light_projection_textures - mut5r https://modworkshop.net/mod/31473
+Better Flashlight Texture - mut5r https://modworkshop.net/mod/31473
 
-Chunky armor hitsounds mod/soundbanks - Fennikk - https://modworkshop.net/mod/25327
+Chunky armor hitsounds mod - Fennikk - https://modworkshop.net/mod/25327
 
-Enhanced Glass Cutting/soundbanks/streamed/regular_sfx - Thesnowgato - https://modworkshop.net/mod/33593
+Enhanced Glass Cutting - Thesnowgato - https://modworkshop.net/mod/33593
 
-HD NPC Weapon Model Replacement/units - Jarey_ - https://modworkshop.net/mod/34740
+HD NPC Weapon Model Replacements - Jarey_ - https://modworkshop.net/mod/34740
 
-No Dirt Camera/core/textures - Kitsune Jimmy - https://modworkshop.net/mod/833
+No Dirt Cameras - Kitsune Jimmy - https://modworkshop.net/mod/833
 
 Original Bipods - >:3 - https://modworkshop.net/mod/28543
 
@@ -132,7 +132,7 @@ Reduced Sicaro Smoke - Jarey_ - https://modworkshop.net/mod/22674
 
 Reinforcements Armor Regeneration Sound - Fennikk - https://modworkshop.net/mod/25337
 
-Slightly Exaggerated Weapon Tracers/effects - fugsystem - https://modworkshop.net/mod/25476
+Slightly Exaggerated Weapon Tracers - fugsystem - https://modworkshop.net/mod/25476
 
 Visible power boxes - Kell S. - https://modworkshop.net/mod/27187
 
