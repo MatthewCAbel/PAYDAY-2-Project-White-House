@@ -20,6 +20,9 @@ Download the script for your operating system from the releases page. Then run i
 MatthewCabel - Installation coding, idea, and general project manager
 
 Lettuce - Help with a few things
+
+SteamRE - Depot Downloader - https://github.com/SteamRE/DepotDownloader
+
 # Mod Credits
 
 SuperBLT - SuperBLT Team - https://superblt.znix.xyz
