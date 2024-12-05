@@ -31,10 +31,14 @@ def download_depot_downloader():
         zip_ref.extractall(extract_dir)
     print("Depot Downloader extracted to:", extract_dir)
 
+    # Make DepotDownloader executable
+    (extract_dir / "DepotDownloader").chmod(0o755)
+
     os.remove(zip_name)
     print("Zip file removed.")
 
     return extract_dir
+
 
 def get_installation_folder():
     Tk().withdraw()
@@ -61,7 +65,7 @@ def run_depot_downloader(depot_downloader_path, project_folder, username, passwo
         raise Exception("Depot Downloader is not extracted correctly.")
 
     command = [
-        str(depot_downloader_path / "DepotDownloader"),
+        str(depot_downloader_path/"./DepotDownloader"),
         "-app", "218620",
         "-depot", "218621",
         "-manifest", "8140332499591716770",
@@ -94,8 +98,8 @@ def clone_and_copy_repo(project_folder):
                 shutil.copytree(item_path, dest, dirs_exist_ok=True)
             else:
                 shutil.copy2(item_path, dest)
-            print(f"Installing mods..."")
-        else:1
+            print(f"Installing mods...")
+        else:
             print(f"Mods not found! Please rerun the script, or contact the developers if this issue persists")
 
 def main():
