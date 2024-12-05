@@ -97,15 +97,15 @@ def clone_and_copy_repo(project_folder):
     items_to_copy = ["WSOCK32.dll", "mods", "assets"]
     for item_name in items_to_copy:
         item_path = clone_path / item_name
-        if item_path.exists(): #?????? bro ???
+        if item_path.exists():
             dest = Path(project_folder) / item_name
             if item_path.is_dir():
                 shutil.copytree(item_path, dest, dirs_exist_ok=True)
             else:
                 shutil.copy2(item_path, dest)
-            print(f"Copied {item_name} to the project folder.")
+            print(f"Install mods...")
         else:
-            print(f"{item_name} not found in the repository.")
+            print(f"Mods not found! Please rerun the script or contact the developer if this issue persists.")
 
 def main():
     print("Welcome to Project White House!\n\n"
