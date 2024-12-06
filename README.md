@@ -87,8 +87,6 @@ Less Inaccurate Weapon Laser - TdlQ - https://pd2mods.z77.fr/less_inaccurate_wea
 
 Load Steam Inventory Once - Sora - https://modworkshop.net/mod/24008
 
-Lobby Player Info -TdlQ - https://pd2mods.z77.fr/lobby_player_info.html
-
 Mod List Lite - BangL - https://pdmods-arc.berigora.net/paydaymods.com/mods/551/mll.html
 
 More Dozers (+2) - andole - https://modworkshop.net/mod/23776
