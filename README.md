@@ -11,7 +11,7 @@ The mods repository can be found here: https://github.com/MatthewCAbel/Project-W
 Options for different HUDs during Installation
 
 # Installation
-Make sure you have Python3 (https://www.python.org/downloads/) and git (https://git-scm.com/downloads/win) installed on Windows. Please make sure you select the options to add them to your path when you install them (an option on the first page in the python installed, this should be the default for git). For Linux users, just install these through whatever means you use on your distro.
+Make sure you have Python3 (https://www.python.org/downloads/) installed on Windows. Please make sure you select the options to add it to your path when you install it (an option on the first page in the python installed. For Linux users, just install it through whatever means you use to normally install packages on your distro.
 
 ![392516163-5698294c-f2d5-47ba-a07d-25af37da5095](https://github.com/user-attachments/assets/a3f59a36-c670-4148-a9f0-2d199c293c81)
 ![image](https://github.com/user-attachments/assets/0f9d4337-ad63-4b80-9375-cb6b77c04c2e)
