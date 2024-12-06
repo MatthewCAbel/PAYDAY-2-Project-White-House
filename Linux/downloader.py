@@ -31,7 +31,6 @@ def download_depot_downloader():
         zip_ref.extractall(extract_dir)
     print("Depot Downloader extracted to:", extract_dir)
 
-    # Make DepotDownloader executable
     (extract_dir / "DepotDownloader").chmod(0o755)
 
     os.remove(zip_name)
@@ -65,7 +64,7 @@ def run_depot_downloader(depot_downloader_path, project_folder, username, passwo
         raise Exception("Depot Downloader is not extracted correctly.")
 
     command = [
-        str(depot_downloader_path/"./DepotDownloader"),
+        str(depot_downloader_path / "./DepotDownloader"),
         "-app", "218620",
         "-depot", "218621",
         "-manifest", "8140332499591716770",
@@ -102,6 +101,12 @@ def clone_and_copy_repo(project_folder):
         else:
             print(f"Mods not found! Please rerun the script, or contact the developers if this issue persists")
 
+def create_steam_appid_file(project_folder):
+    steam_appid_path = Path(project_folder) / "steam_appid.txt"
+    with open(steam_appid_path, "w") as file:
+        file.write("218620")
+    print(f"Created steam_appid.txt in {project_folder}")
+
 def main():
     print("Welcome to Project White House!\n\n"
           "This script will download version 197.2 of PAYDAY 2 and then install our modpack automatically "
@@ -119,11 +124,12 @@ def main():
     username, password = get_steam_credentials()
 
     run_depot_downloader(depot_downloader_path, project_folder, username, password)
-    run_depot_downloader(depot_downloader_path, project_folder, username, password)
 
     clone_and_copy_repo(project_folder)
 
-    messagebox.showinfo("Done!", "Done! Please add the Project White House EXE file as a non-Steam game to play and rename it on steam to play. You will also need to select the same Proton version and use the launch option from the SuperBLT website (linked on the github)\n"
+    create_steam_appid_file(project_folder)
+
+    messagebox.showinfo("Done!", "Done! Please add the Project White House EXE file as a non-Steam game to play and rename it on Steam to play. You will also need to select the same Proton version and use the launch option from the SuperBLT website (linked on the GitHub).\n"
                                  "Thank you for playing Project White House!")
 
 if __name__ == "__main__":
