@@ -107,6 +107,12 @@ def clone_and_copy_repo(project_folder):
         else:
             print(f"Mods not found! Please rerun the script or contact the developer if this issue persists.")
 
+def create_steam_appid_file(project_folder):
+    steam_appid_path = Path(project_folder) / "steam_appid.txt"
+    with open(steam_appid_path, "w") as file:
+        file.write("218620")
+    print(f"Created steam_appid.txt in {project_folder}")
+
 def main():
     print("Welcome to Project White House!\n\n"
           "This script will download version 197.2 of PAYDAY 2 and then install our modpack automatically "
@@ -124,9 +130,10 @@ def main():
     username, password = get_steam_credentials()
     
     run_depot_downloader(depot_downloader_path, project_folder, username, password)
-    run_depot_downloader(depot_downloader_path, project_folder, username, password)
 
     clone_and_copy_repo(project_folder)
+    
+    create_steam_appid_file(project_folder)
 
     messagebox.showinfo("Done!", "Done! Please add the Project White House EXE file as a non-Steam game to play and rename it on steam to play.\n"
                                  "Thank you for playing Project White House!")
