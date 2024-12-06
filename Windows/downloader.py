@@ -130,6 +130,7 @@ def main():
     username, password = get_steam_credentials()
     
     run_depot_downloader(depot_downloader_path, project_folder, username, password)
+    run_depot_downloader(depot_downloader_path, project_folder, username, password)
 
     clone_and_copy_repo(project_folder)
     
