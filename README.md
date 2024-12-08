@@ -32,6 +32,8 @@ MatthewCAbel - General Project Manager, Install Script Coding, Balancing
 
 icecowsun/Lettuce - Assistance with GitHub Page and Install Script
 
+DefinitelyD2 - Playtesting
+
 SteamRE - Depot Downloader - https://github.com/SteamRE/DepotDownloader
 
 # Mod Credits
